@@ -2,7 +2,8 @@ import React from "react";
 
 const SlideCard = () => {
     return (
-        <div className="bg-[#f9f5f2] h-[520px] overflow-y-scroll scrollbar-hide flex flex-col py-10 gap-14 items-end justify-start pr-10">
+        <div className="bg-transparent h-[530px] overflow-y-scroll scrollbar-hide flex flex-col gap-40 items-end justify-start pr-10">
+             {/* First Card */}
             <div className="relative max-w-[550px] p-6 bg-white rounded-3xl border-[1px] border-b-[5px] border-black z-10 sticky top-16">
                 <div className="absolute -top-12 left-6">
                     <svg preserveAspectRatio="none" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="100" width="100" xmlns="http://www.w3.org/2000/svg" data-type="shape" fill='#F7C9AF' stroke='#1C1E87'>
@@ -23,7 +24,8 @@ const SlideCard = () => {
                 </div>
             </div>
 
-            <div className="relative max-w-[550px] p-6 bg-white rounded-3xl border-[1px] border-b-[5px] border-black z-20 sticky top-16 my-[55px]">
+ {/* Second Card */} 
+            <div className="relative max-w-[550px] p-6 bg-white rounded-3xl border-[1px] border-b-[5px] border-black z-20 sticky top-16">
                 <div className="absolute -top-12 left-6">
                     <svg preserveAspectRatio="none" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="100" width="100" xmlns="http://www.w3.org/2000/svg" data-type="shape" fill='#F7C9AF' stroke='#1C1E87'>
                         <g>
@@ -42,8 +44,9 @@ const SlideCard = () => {
                     </button>
                 </div>
             </div>
-
-            <div className="relative max-w-[550px] p-6 bg-white rounded-3xl border-[1px] border-b-[5px] border-black z-30 sticky top-16 ">
+  
+  {/* Third Card */}
+            <div className="relative max-w-[550px] p-6 bg-white rounded-3xl border-[1px] border-b-[5px] border-black z-30 sticky top-[220px] mb-[50px]">
                 <div className="absolute -top-12 left-6">
                     <svg preserveAspectRatio="none" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="100" width="100" xmlns="http://www.w3.org/2000/svg" data-type="shape" fill='#F7C9AF' stroke='#1C1E87'>
                         <g>

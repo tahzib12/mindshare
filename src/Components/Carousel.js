@@ -9,10 +9,10 @@ import 'aos/dist/aos.css';
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  
+
   const slides = [
     {
-      image: g1, 
+      image: g1,
       title: 'From Farm to Fork: Optimizing the Consumer Journey',
       client: 'Leafy F&B',
       industry: 'Food & Beverage',
@@ -21,7 +21,7 @@ const Carousel = () => {
         'Describe the service and how customers or clients can benefit from it. This is the place to add a short description with relevant details, like pricing, duration and how to book.',
     },
     {
-      image: vegs, 
+      image: vegs,
       title: 'Digital Transformation for Retail',
       client: 'Retail Corp',
       industry: 'Retail',
@@ -30,7 +30,7 @@ const Carousel = () => {
         'This project focused on transforming the digital presence of a retail company, including online and mobile experiences.',
     },
     {
-      image: g2, 
+      image: g2,
       title: 'Sustainable Energy Solutions',
       client: 'Green Energy',
       industry: 'Energy',
@@ -62,24 +62,24 @@ const Carousel = () => {
 
   useEffect(() => {
     AOS.init({
-        duration: 1000,
-        once: false,
-        easing: 'ease',
+      duration: 1000,
+      once: false,
+      easing: 'ease',
     });
     AOS.refresh();
-}, []);
+  }, []);
 
   return (
     <div id='caseStudies' className="relative w-full mx-auto p-14 bg-[#f9f5f2]">
-        <div className='text-center text-[40px] font-bold text-blue-900 py-10'>
-            Case Studies
-        </div>
+      <div className='text-center text-[40px] font-bold text-blue-900 py-10'>
+        Case Studies
+      </div>
       <div className="flex items-center justify-center space-x-4">
         {/* Left Arrow */}
         <button
           onClick={handlePrev}
           className="bg-white border-[1px] border-blue-900 p-2 text-blue-900 rounded-full text-[25px] hover:bg-blue-900 hover:text-white cursor-pointer"
-        > 
+        >
           <IoMdArrowBack />
         </button>
 
@@ -102,8 +102,8 @@ const Carousel = () => {
                       className="object-cover h-full w-full rounded-xl border-[1px] border-blue-900"
                     />
                   </div>
-                  <div className="w-full md:w-1/2 p-6 flex flex-col justify-center border-[1px] border-blue-900 rounded-xl bg-white">
-                    <div className="text-[36px] font-bold mb-4 text-blue-900">
+                  <div className="w-full md:w-1/2 h-[350px] p-6 flex flex-col justify-start border-[1px] border-blue-900 rounded-xl bg-white relative">
+                    <div className="text-[34px] font-bold mb-4 text-blue-900">
                       {slide.title}
                     </div>
                     <p className="text-gray-700 mb-2 text-[14px]">
@@ -112,6 +112,14 @@ const Carousel = () => {
                       <strong> Project: </strong>{slide.project}
                     </p>
                     <p className="text-gray-700 text-[14px]">{slide.description}</p>
+                    <div className='text-right absolute bottom-4 right-4'>
+                    <a
+                      href="#"
+                      className="bg-blue-100 text-black text-[14px] py-2 px-4 rounded-full border-[1px] border-black  hover:bg-blue-900 hover:text-white hover:border-blue-900 cursor-pointer"
+                    >
+                      Read More
+                    </a>
+                    </div>
                   </div>
                 </div>
               </div>
