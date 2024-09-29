@@ -79,7 +79,7 @@ const Carousel = () => {
         <button
           onClick={handlePrev}
           className="bg-white border-[1px] border-blue-900 p-2 text-blue-900 rounded-full text-[25px] hover:bg-blue-900 hover:text-white cursor-pointer"
-        >
+        > 
           <IoMdArrowBack />
         </button>
 
