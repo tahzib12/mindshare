@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './Components/Navbar';
+import HeroSection from './Components/Hero';
+import ServiceSection from './Components/Service';
+import Carousel from './Components/Carousel';
+import ContactForm from './Components/Form';
+import Footer from './Components/Footer';
+import Industries from './Components/Industries';
+import CursorDisk from './Components/CursorDisk';
+import JoinUs from './Components/JoinUs';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="cursor-none">
+      <CursorDisk/>
+      <section className='fixed top-10 z-40 w-[90%] left-1/2 transform -translate-x-1/2'>
+        <Navbar/>
+      </section>
+      <HeroSection />
+      <ServiceSection/>
+      <Industries/>
+      <Carousel/>
+      <JoinUs/>
+      <ContactForm/>
+      <Footer/>
     </div>
   );
 }
