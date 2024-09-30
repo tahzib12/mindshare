@@ -2,7 +2,7 @@ import React from "react";
 
 const SlideCard = () => {
     return (
-        <div className="bg-transparent h-[530px] overflow-y-scroll scrollbar-hide flex flex-col gap-40 items-end justify-start pr-10 ">
+        <div className="bg-transparent h-[530px] overflow-y-scroll scrollbar-hide flex flex-col gap-48 items-end justify-start pr-10 ">
              {/* First Card */}
             <div className="relative max-w-[550px] p-6 bg-white rounded-3xl border-[1px] border-b-[5px] border-black z-10 sticky top-16">
                 <div className="absolute -top-12 left-6">
@@ -12,10 +12,12 @@ const SlideCard = () => {
                         </g>
                     </svg>
                 </div>
-                <h2 className="text-[40px] font-bold text-indigo-800 pt-16">Consumer Insights Analyst 1</h2>
+                <h2 className="text-[40px] font-bold text-indigo-800 pt-16">Sarah J.</h2>
+                <p className="text-black mt-4">
+                – Founder, CreativeWave Studios
+                </p>
                 <p className="text-blue-900 mt-4">
-                    This is the space to tell people about an open position. Describe the role, its requirements and the qualities the business wants to see in candidates. 
-                    List the benefits that come with the job and tell interested readers what to include in their applications.
+                “Working with CoreWebFusion was an absolute pleasure! Their team took the time to understand our brand’s vision and executed it flawlessly, delivering a stunning website and social media strategy that exceeded our expectations. Highly recommended!”
                 </p>
                 <div className="mt-6">
                     <button className="px-4 py-2 bg-indigo-100 text-black rounded-full shadow-sm hover:bg-blue-900 hover:text-white border-[1px] border-black focus:outline-none hover:border-blue-900 cursor-pointer">
@@ -33,10 +35,12 @@ const SlideCard = () => {
                         </g>
                     </svg>
                 </div>
-                <h2 className="text-[40px] font-bold text-indigo-800 pt-16">Consumer Insights Analyst 2</h2>
+                <h2 className="text-[40px] font-bold text-indigo-800 pt-16">James L.</h2>
+                <p className="text-black mt-4">
+                – Marketing Manager, Peak Fitness
+                </p>
                 <p className="text-blue-900 mt-4">
-                    This is the space to tell people about an open position. Describe the role, its requirements and the qualities the business wants to see in candidates. 
-                    List the benefits that come with the job and tell interested readers what to include in their applications.
+                “CoreWebFusion transformed our digital presence. Thanks to their expert SEO and web development services, we saw a 30% increase in organic traffic within the first three months. Their attention to detail and professionalism set them apart!”
                 </p>
                 <div className="mt-6">
                     <button className="px-4 py-2 bg-indigo-100 text-black rounded-full shadow-sm hover:bg-blue-900 hover:text-white border-[1px] border-black focus:outline-none hover:border-blue-900 cursor-pointer">
@@ -46,7 +50,7 @@ const SlideCard = () => {
             </div>
   
   {/* Third Card */}
-            <div className="relative max-w-[550px] p-6 bg-white rounded-3xl border-[1px] border-b-[5px] border-black z-30 sticky top-[220px] mb-[50px]">
+            <div className="relative max-w-[550px] p-6 bg-white rounded-3xl border-[1px] border-b-[5px] border-black z-30 sticky top-[220px] mb-[70px]">
                 <div className="absolute -top-12 left-6">
                     <svg preserveAspectRatio="none" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="100" width="100" xmlns="http://www.w3.org/2000/svg" data-type="shape" fill='#F7C9AF' stroke='#1C1E87'>
                         <g>
@@ -54,10 +58,12 @@ const SlideCard = () => {
                         </g>
                     </svg>
                 </div>
-                <h2 className="text-[40px] font-bold text-indigo-800 pt-16">Consumer Insights Analyst 3</h2>
+                <h2 className="text-[40px] font-bold text-indigo-800 pt-16">Emily T.</h2>
+                <p className="text-black mt-4">
+                – CEO, Luxe Design Co.
+                </p>
                 <p className="text-blue-900 mt-4">
-                    This is the space to tell people about an open position. Describe the role, its requirements and the qualities the business wants to see in candidates. 
-                    List the benefits that come with the job and tell interested readers what to include in their applications.
+                “I couldn't be happier with the graphic design and branding work CoreWebFusion did for us. They helped shape a visual identity that resonates with our customers and aligns perfectly with our values. Exceptional work from start to finish!”
                 </p>
                 <div className="mt-6">
                     <button className="px-4 py-2 bg-indigo-100 text-black rounded-full shadow-sm hover:bg-blue-900 hover:text-white border-[1px] border-black focus:outline-none hover:border-blue-900 cursor-pointer">

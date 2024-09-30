@@ -72,7 +72,7 @@ const Carousel = () => {
   return (
     <div id='caseStudies' className="relative w-full mx-auto p-14 bg-[#f9f5f2]">
       <div className='text-center text-[40px] font-bold text-blue-900 py-10'>
-        Case Studies
+        Blog
       </div>
       <div className="flex items-center justify-center space-x-4">
         {/* Left Arrow */}
@@ -114,7 +114,7 @@ const Carousel = () => {
                     <p className="text-gray-700 text-[14px]">{slide.description}</p>
                     <div className='text-right absolute bottom-4 right-4'>
                     <a
-                      href="#"
+                      href="/Blog"
                       className="bg-blue-100 text-black text-[14px] py-2 px-4 rounded-full border-[1px] border-black  hover:bg-blue-900 hover:text-white hover:border-blue-900 cursor-pointer"
                     >
                       Read More

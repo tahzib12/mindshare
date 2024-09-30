@@ -14,7 +14,7 @@ const Footer = () => {
     }, []);
 
     return (
-        <footer className="bg-[#f9f5f2] p-8  mx-auto w-full">
+        <footer className="bg-[#f9f5f2] p-8 pb-5 mx-auto w-full">
             <div className="bg-[#F7C9AF] p-8 md:p-12 rounded-3xl mx-auto my-10 max-w-5xl shadow-lg border-[1px] border-b-[10px] border-blue-900 relative" data-aos="zoom-in">
                 <div className="flex flex-col gap-44 md:flex-row justify-start items-start space-y-6 md:space-y-0">
 

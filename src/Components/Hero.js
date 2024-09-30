@@ -28,7 +28,7 @@ const HeroSection = () => {
           <img
             src={Hero1}
             alt="Business Insights Illustration"
-            className="w-full rounded-3xl"
+            className="w-full rounded-3xl bg-transparent"
           />
         </div>
       </div>

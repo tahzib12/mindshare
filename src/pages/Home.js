@@ -5,9 +5,9 @@ import HeroSection from '../Components/Hero'
 import ServiceSection from '../Components/Service'
 import Industries from '../Components/Industries'
 import Carousel from '../Components/Carousel'
-import JoinUs from '../Components/JoinUs'
 import Footer from '../Components/Footer'
 import ContactForm from '../Components/Form'
+import OurClients from '../Components/OurClients'
 
 function Home() {
   return (
@@ -20,7 +20,7 @@ function Home() {
     <ServiceSection/>
     <Industries/>
     <Carousel/>
-    <JoinUs/>
+    <OurClients/>
     <ContactForm/>
     <Footer/>
   </div>
