@@ -11,7 +11,7 @@ const Industries = () => {
                 <div className='border-[1px] border-b-[5px] border-blue-900 rounded-[50%] relative w-[300px] h-[100px] bg-white'>
                     <div className='border-[1px] border-b-[5px] border-blue-900 rounded-[50%] w-full h-[100px] bg-white absolute bottom-2 left-1'>
                         <div className='p-8 border-[1px] border-b-[7px] border-blue-900 rounded-[50%] text-black text-[18px] font-bold absolute w-full h-full bottom-2 right-2 bg-[#F7C9AF] z-10 text-center'>
-                            Fashion & Apparel
+                        Web Development
                         </div>
 
                         <div className='absolute -top-8 left-16 z-20'>
@@ -28,7 +28,8 @@ const Industries = () => {
                 <div className='border-[1px] border-b-[5px] border-blue-900 rounded-[50%] relative w-[300px] h-[100px] bg-white'>
                     <div className='border-[1px] border-b-[5px] border-blue-900 rounded-[50%] w-full h-[100px] bg-white absolute bottom-2 left-1'>
                         <div className='p-8 border-[1px] border-b-[7px] border-blue-900 rounded-[50%] text-black text-[18px] font-bold absolute w-full h-full bottom-2 right-2 bg-[#F7C9AF] z-10 text-center'>
-                            Food & Beverage
+                        Digital Marketing
+
                         </div>
 
                         <div className='absolute -top-8 left-16 z-20'>
@@ -45,7 +46,8 @@ const Industries = () => {
                 <div className='border-[1px] border-b-[5px] border-blue-900 rounded-[50%] relative w-[300px] h-[100px] bg-white'>
                     <div className='border-[1px] border-b-[5px] border-blue-900 rounded-[50%] w-full h-[100px] bg-white absolute bottom-2 left-1'>
                         <div className='p-8 border-[1px] border-b-[7px] border-blue-900 rounded-[50%] text-black text-[18px] font-bold absolute w-full h-full bottom-2 right-2 bg-[#F7C9AF] z-10 text-center'>
-                            Beauty & Personal Care
+                        Graphic Designing
+
                         </div>
 
                         <div className='absolute -top-8 left-16 z-20'>

@@ -1,6 +1,6 @@
 import React from 'react'
 import SlideCard from './SlideCard'
-import image6 from '../Assets/image6.png'
+import image6 from '../Assets/joinus.jpeg'
 
 
 function JoinUs() {
@@ -24,4 +24,4 @@ function JoinUs() {
   )
 }
 
-export default JoinUs
+export default JoinUs;

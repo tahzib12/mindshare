@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Assets/mindsharelogo.png';
+import logo from '../Assets/logoweb.jpeg';
 
 const Navbar = () => {
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
             className="h-6"
           />
           <span className="text-blue-900 font-semibold text-lg">
-            Mindshare Partners
+          Corewebfusion
           </span>
         </div>
         <div className="flex space-x-6 items-center">

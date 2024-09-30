@@ -2,7 +2,7 @@ import React from "react";
 
 const SlideCard = () => {
     return (
-        <div className="bg-transparent h-[530px] overflow-y-scroll scrollbar-hide flex flex-col gap-40 items-end justify-start pr-10">
+        <div className="bg-transparent h-[530px] overflow-y-scroll scrollbar-hide flex flex-col gap-40 items-end justify-start pr-10 ">
              {/* First Card */}
             <div className="relative max-w-[550px] p-6 bg-white rounded-3xl border-[1px] border-b-[5px] border-black z-10 sticky top-16">
                 <div className="absolute -top-12 left-6">
