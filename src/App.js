@@ -8,7 +8,7 @@ import Blog from './pages/Blog';
 function App() {
   return (
     <Router>
-      <Routes>dropDVideo
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Blog" element={<Blog />} />
       </Routes>

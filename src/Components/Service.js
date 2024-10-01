@@ -45,13 +45,13 @@ const ServiceCard = ({ service }) => {
 
   return (
    
-    <div  className="w-[520px] h-full bg-white rounded-3xl border-[1px] border-b-[10px] border-black p-10 " data-aos="zoom-in">
-      <div className="flex justify-between mb-4 w-full items-center">
-        <img src={service.image} alt={service.title} className="h-[170px] w-1/2 bg-cover rounded-2xl" />
-        <div className="text-[32px] font-bold text-blue-800 w-1/2  pl-6">{service.title}</div>
+    <div  className="w-[520px] sm:w-[290px] h-full bg-white rounded-3xl border-[1px] border-b-[10px] border-black p-10 sm:p-4" data-aos="zoom-in">
+      <div className="flex justify-between sm:flex-col mb-4 w-full items-center">
+        <img src={service.image} alt={service.title} className="h-[170px] w-1/2 sm:w-full bg-cover rounded-2xl" />
+        <div className="text-[32px] font-bold text-blue-800 w-1/2 sm:w-full sm:text-xl md:text-2xl pl-6">{service.title}</div>
       </div>
       <div className='p-5 border-[1px] border-blue-900 rounded-2xl pr-[60px] bg-[#f9f5f2]'>
-      <p className="text-blue-900 text-[15px]">{service.description}</p>
+      <p className="text-blue-900 text-[15px] sm:text-[12px] md:text-[14px]">{service.description}</p>
       </div>
     </div>
    
@@ -60,12 +60,12 @@ const ServiceCard = ({ service }) => {
 
 const ServiceSection = () => {
   return (
-    <div id='service' className="bg-[#f9f5f2] py-10">
-      <div className='text-blue-800 font-bold text-[40px] text-center pb-14'>
+    <div id='service' className="bg-[#f9f5f2] py-10 sm:px-5">
+      <div className='text-blue-800 font-bold text-[40px] text-center pb-14 sm:text-2xl md:text-3xl'>
         Our Services
       </div>
       <div className="container mx-auto flex justify-center items-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-14">
           {services.map((service) => (
             <ServiceCard key={service.id} service={service} />
           ))}

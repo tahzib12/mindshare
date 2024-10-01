@@ -17,12 +17,12 @@ function Home() {
       <Navbar/>
     </section>
     <HeroSection />
-    <ServiceSection/>
-    <Industries/>
+   <ServiceSection/>
+      <Industries/>
     <Carousel/>
     <OurClients/>
     <ContactForm/>
-    <Footer/>
+   <Footer/>
   </div>
   )
 }
