@@ -14,6 +14,7 @@ const Navbar = () => {
             src={logo}
             alt="logo" 
             className="h-6"
+            loading='lazy'
           />
           <span className="text-blue-900 font-semibold text-lg sm:text-[16px]">
           Corewebfusion

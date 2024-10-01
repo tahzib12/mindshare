@@ -14,6 +14,7 @@ function OurClients() {
             src={image6}
             alt="Business Insights Illustration"
             className="w-full"
+            loading='lazy'
           />
         </div>
         <div className='absolute sm:static md:static right-0 z-20 w-full'>

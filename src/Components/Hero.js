@@ -29,6 +29,7 @@ const HeroSection = () => {
             src={Hero1}
             alt="Business Insights Illustration"
             className="w-full rounded-3xl bg-transparent"
+            loading='lazy'
           />
         </div>
       </div>

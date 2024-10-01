@@ -21,6 +21,7 @@ function BlogHero() {
           src={blog1}
           alt="Business Insights Illustration"
           className="w-1/2 h-[630px]"
+          loading='lazy'
         />
       </div>
 
@@ -52,6 +53,7 @@ function BlogHero() {
               src={blog2}
               alt="Two people working together at a computer"
               className="w-full h-auto rounded-lg mb-4"
+              loading='lazy'
             />
             <p className="text-[23px] text-black font-bold my-8">
               Remote work has gained traction because the coronavirus pandemic forced organizations to adopt it. However, the long-term popularity of remote work is driven by its benefits to employees and employers.
@@ -113,6 +115,7 @@ function BlogHero() {
             src={blog3}
             alt="Two people working together at a computer"
             className="w-full h-auto rounded-lg mb-4"
+            loading='lazy'
           />
           <p className="text-[23px] text-black my-8">
             Why do people work remotely?
@@ -129,6 +132,7 @@ function BlogHero() {
             src={blog4}
             alt="Two people working together at a computer"
             className="w-full h-auto rounded-lg mb-4"
+            loading='lazy'
           />
           <p className="text-[23px] text-black my-8">
             How remote work benefts all
@@ -188,6 +192,7 @@ function BlogHero() {
             src={blog4}
             alt="Two people working together at a computer"
             className="w-full h-auto rounded-lg mb-4"
+            loading='lazy'
           />
           <p className="text-[36px] text-black my-8 font-bold">
             What jobs can be done remotely?

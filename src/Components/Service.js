@@ -47,7 +47,7 @@ const ServiceCard = ({ service }) => {
    
     <div  className="w-[520px] sm:w-[290px] h-full bg-white rounded-3xl border-[1px] border-b-[10px] border-black p-10 sm:p-4" data-aos="zoom-in">
       <div className="flex justify-between sm:flex-col mb-4 w-full items-center">
-        <img src={service.image} alt={service.title} className="h-[170px] w-1/2 sm:w-full bg-cover rounded-2xl" />
+        <img src={service.image} alt={service.title} loading='lazy' className="h-[170px] w-1/2 sm:w-full bg-cover rounded-2xl" />
         <div className="text-[32px] font-bold text-blue-800 w-1/2 sm:w-full sm:text-xl md:text-2xl pl-6">{service.title}</div>
       </div>
       <div className='p-5 border-[1px] border-blue-900 rounded-2xl pr-[60px] bg-[#f9f5f2]'>

@@ -50,7 +50,7 @@ const Footer = () => {
                 {/* Bottom Text */}
                 <div className="flex flex-col items-center md:items-start lg:items-start space-y-3 mt-10">
                     <a href="#" className="bg-white px-4 py-2 rounded-full border border-blue-700 flex items-center justify-center cursor-pointer">
-                        <img src={logo} alt="Logo" className="h-6 w-6 mr-2 object-contain" />
+                        <img src={logo} alt="Logo" className="h-6 w-6 mr-2 object-contain" loading='lazy'/>
                         <span className="text-blue-900 font-bold">Corewebfusion</span>
                     </a>
                 </div>

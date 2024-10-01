@@ -100,7 +100,7 @@ const Carousel = () => {
                       src={slide.image}
                       alt="Slide"
                       className="object-cover h-full w-full rounded-xl border-[1px] border-blue-900"
-                    />
+                      loading='lazy' />
                   </div>
                   <div className="w-1/2 sm:w-full md:w-full h-[350px] lg:h-auto sm:h-auto sm:pb-14 p-6 flex flex-col justify-start border-[1px] border-blue-900 rounded-xl bg-white relative">
                     <div className="text-[34px] sm:text-[20px] font-bold mb-4 text-blue-900">
