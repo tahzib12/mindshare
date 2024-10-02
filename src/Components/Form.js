@@ -13,7 +13,7 @@ const ContactForm = () => {
     }, []);
 
     return (
-        <div className="min-h-screen md:h-auto sm:h-auto flex items-center justify-center bg-[#f9f5f2] md:px-28 sm:px-10">
+        <div id='form' className="min-h-screen md:h-auto sm:h-auto flex items-center justify-center bg-[#f9f5f2] md:px-28 sm:px-10">
             <div className="flex flex-col  lg:flex-row md:flex-col-reverse sm:flex-col-reverse items-start space-y-6 lg:space-y-0 lg:space-x-12 md:space-y-0  md:space-x-0 sm:space-y-0  sm:space-x-0 md:w-full" >
                 {/* Form Section */}
                 <div className="bg-white shadow-lg rounded-3xl md:w-full sm:w-full p-8 w-1/2 border-[1px] border-b-[10px] border-black" data-aos="fade-up">

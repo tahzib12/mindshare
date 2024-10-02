@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className={`transition-transform duration-300 ease-in-out ${
             isMenuOpen
               ? 'flex flex-col items-start boxShadow1 rounded-lg space-y-4 absolute top-[50px] sm:w-[180px] md:w-[200px] right-0 bg-white shadow-lg p-4 z-10'
-              : 'hidden lg:flex lg:space-x-10'
+              : 'hidden lg:flex lg:space-x-4'
           } text-[25px] lg:relative flex items-center`}>
          <HashLink smooth to="/#service" className="text-black text-[16px] font-semibold  hover:border-b hover:border-black cursor-pointer ">
             Services
@@ -41,12 +41,11 @@ const Navbar = () => {
             Blog
           </HashLink>
          
-          <a 
-            href="#" 
-            className="bg-blue-100 text-black text-[14px] py-1 px-4 rounded-full border-[1px] border-black  hover:bg-blue-900 hover:text-white hover:border-blue-900 duration-300 cursor-pointer font-bold"
+         <HashLink smooth to="/#form"
+            className="bg-blue-100 text-black text-[14px] py-1 px-4 rounded-full border-[1px] border-black  hover:bg-blue-900 hover:text-white hover:border-blue-900 duration-300 cursor-pointer font-bold "
           >
             Contact
-          </a>
+            </HashLink>
           <a 
             href="#" 
             className="border-[1px] border-blue-900 text-black text-[14px] py-1 px-4 rounded-full hover:bg-blue-900 hover:text-white duration-300 font-bold cursor-pointer"
