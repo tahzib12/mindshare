@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import vegs from '../Assets/vegsmind.png';
-import g1 from '../Assets/g1.png';
-import g2 from '../Assets/g2.png';
+import g1 from '../Assets/g1.jpeg';
+import g2 from '../Assets/g2.jpeg';
+import g3 from '../Assets/g3.jpeg';
 import { IoMdArrowForward } from "react-icons/io";
 import { IoMdArrowBack } from "react-icons/io";
 import AOS from 'aos';
@@ -13,30 +13,30 @@ const Carousel = () => {
   const slides = [
     {
       image: g1,
-      title: 'From Farm to Fork: Optimizing the Consumer Journey',
-      client: 'Leafy F&B',
-      industry: 'Food & Beverage',
-      project: 'Brand Positioning and Product Development',
-      description:
-        'Describe the service and how customers or clients can benefit from it. This is the place to add a short description with relevant details, like pricing, duration and how to book.',
-    },
-    {
-      image: vegs,
-      title: 'Digital Transformation for Retail',
-      client: 'Retail Corp',
-      industry: 'Retail',
-      project: 'Digital Strategy',
-      description:
-        'This project focused on transforming the digital presence of a retail company, including online and mobile experiences.',
+      title: 'How to Increase Your Brand Value',
+      description: `In today's highly competitive market, building a strong brand is crucial for success. 
+    A powerful brand not only helps you stand out from competitors but also builds trust, loyalty, 
+    and recognition among consumers. Whether you are a startup or an established business, 
+    understanding how to increase your brand value is essential for long-term growth. In this blog, 
+    we will explore actionable steps to elevate your brand and drive more value.`,
+        link: '/Blogpage1', 
     },
     {
       image: g2,
-      title: 'Sustainable Energy Solutions',
-      client: 'Green Energy',
-      industry: 'Energy',
-      project: 'Sustainability Strategy',
+      title: 'Grow Your Business:',
       description:
-        'We provided sustainable energy strategies for the client to reduce environmental impact and increase efficiency.',
+        `Growing a business requires careful planning, strategic execution, and constant adaptation. Whether you're a startup or an established company, scaling up can seem overwhelming. However, with the right approach, you can unlock the potential of your business and reach new heights.`,
+        link: '/Blogpage2', 
+    },
+    {
+      image: g3,
+      title: 'Top Tips to Become Rich in 2025',
+      description:
+        `Everyone dreams of becoming wealthy, but few have a clear strategy on how to achieve that
+goal. As we approach 2025, the landscape for wealth creation is evolving rapidly, offering
+both challenges and opportunities. To help you get ahead, we’ve compiled a list of actionable
+tips that can pave your path to financial success in the coming year.`,
+        link: '/Blogpage3', 
     },
   ];
 
@@ -99,22 +99,17 @@ const Carousel = () => {
                     <img
                       src={slide.image}
                       alt="Slide"
-                      className="object-cover h-full w-full rounded-xl border-[1px] border-blue-900"
+                      className="object-fill h-full w-full rounded-xl border-[1px] border-blue-900"
                       loading='lazy' />
                   </div>
                   <div className="w-1/2 sm:w-full md:w-full h-[350px] lg:h-auto sm:h-auto sm:pb-14 p-6 flex flex-col justify-start border-[1px] border-blue-900 rounded-xl bg-white relative">
                     <div className="text-[34px] sm:text-[20px] font-bold mb-4 text-blue-900">
                       {slide.title}
                     </div>
-                    <p className="text-gray-700 mb-2 text-[14px]">
-                      <strong>Client: </strong>{slide.client} /
-                      <strong> Industry: </strong>{slide.industry} /
-                      <strong> Project: </strong>{slide.project}
-                    </p>
                     <p className="text-gray-700 text-[14px] sm:text-[14px]">{slide.description}</p>
                     <div className='text-right absolute bottom-4 right-4'>
                     <a
-                      href="/Blog"
+                      href={slide.link}
                       className="bg-blue-100 text-black text-[14px] py-2 px-4 rounded-full border-[1px] border-black  hover:bg-blue-900 hover:text-white hover:border-blue-900 cursor-pointer"
                     >
                       Read More

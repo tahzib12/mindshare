@@ -1,26 +1,25 @@
 import React from 'react'
-import blog1 from '../Assets/blog1.png';
-import blog2 from '../Assets/blog2.png';
-import blog3 from '../Assets/blog3.png';
-import blog4 from '../Assets/blog4.png';
-import blog5 from '../Assets/blog5.png';
+import g3 from '../Assets/g3.jpeg';
+import blog1 from '../Assets/blog3.1.jpeg';
+import blog2 from '../Assets/blog3.2.jpeg';
+import blog3 from '../Assets/blog3.3.jpeg';
+import blog4 from '../Assets/blog3.4.jpeg';
 
-function BlogHero() {
+function Blog3() {
   return (
     <div className='pt-10  w-full h-auto bg-[#f9f5f2] px-20 '>
       <div className='flex justify-center items-start mt-10 py-10 pb-0 w-full'>
-        <div className='flex flex-col w-1/2 bg-[#EFF1E1] h-[630px] items-center justify-center px-10'>
-          <div className='text-[40px] font-bold text-black mb-6'>How remote work
-            drastically improved my skills as a designer</div>
-          <p className='text-black text-[16px]'>Remote working might not only be feasible but beneficial.
-            Stanford University found that remote employees were 13%
-            more productive, with absolutely "no difference in the
-            effectiveness, performance ratings, or promotions"</p>
+        <div className='flex flex-col w-1/2 bg-[#EFF1E1] h-[400px] items-start justify-center px-10'>
+          <div className='text-[40px] font-bold text-black mb-6'>Top Tips to Become Rich in 2025</div>
+          <p className='text-black text-[16px]'>Everyone dreams of becoming wealthy, but few have a clear strategy on how to achieve that
+goal. As we approach 2025, the landscape for wealth creation is evolving rapidly, offering
+both challenges and opportunities. To help you get ahead, we’ve compiled a list of actionable
+tips that can pave your path to financial success in the coming year.</p>
         </div>
         <img
-          src={blog1}
+          src={g3}
           alt="Business Insights Illustration"
-          className="w-1/2 h-[630px]"
+          className="w-1/2 h-[400px]"
           loading='lazy'
         />
       </div>
@@ -50,7 +49,7 @@ function BlogHero() {
         <div className="flex md:flex-row gap-10">
           <div className="w-[60%] pr-6">
             <img
-              src={blog2}
+              src={blog1}
               alt="Two people working together at a computer"
               className="w-full h-auto rounded-lg mb-4"
               loading='lazy'
@@ -112,7 +111,7 @@ function BlogHero() {
 
         <div className="w-[60%] pr-6 pt-10">
           <img
-            src={blog3}
+            src={blog2}
             alt="Two people working together at a computer"
             className="w-full h-auto rounded-lg mb-4"
             loading='lazy'
@@ -129,7 +128,7 @@ function BlogHero() {
 
         <div className="w-[60%] pr-6 py-5">
           <img
-            src={blog4}
+            src={blog3}
             alt="Two people working together at a computer"
             className="w-full h-auto rounded-lg mb-4"
             loading='lazy'
@@ -218,4 +217,4 @@ function BlogHero() {
   )
 }
 
-export default BlogHero
+export default Blog3
