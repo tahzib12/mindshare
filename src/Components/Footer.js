@@ -1,7 +1,13 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import logo from '../Assets/logoweb.jpeg';
+import logo from '../Assets/logo.png';
+import insta from '../Assets/insta.png'
+import LinkedIn from '../Assets/linkedin.png'
+import gmail from '../Assets/gmail.png'
+import x from '../Assets/x.png'
+import { HashLink } from 'react-router-hash-link';
+
 
 const Footer = () => {
     useEffect(() => {
@@ -15,15 +21,17 @@ const Footer = () => {
 
     return (
         <footer className="bg-[#f9f5f2] p-8 pb-5 mx-auto w-full">
-            <div className="bg-[#F7C9AF] p-8 lg:md-12 md:p-12 rounded-3xl mx-auto my-10 max-w-5xl shadow-lg border-[1px] border-b-[10px] border-blue-900 relative" data-aos="zoom-in">
+            <div className="bg-[#F7C9AF] p-8 lg:md-12 md:p-12 rounded-3xl mx-auto my-10 max-w-[90%] shadow-lg border-[1px] border-b-[10px] border-blue-900 relative" data-aos="zoom-in">
                 <div className="flex flex-col gap-44 md:gap-24 sm:gap-3 lg:flex-row md:flex-row justify-start items-start space-y-6 lg:space-y-0 md:space-y-0">
 
                     {/* Contact Section */}
                     <div className="space-y-3 text-center sm:text-start lg:text-left md:text-left">
-                        <h2 className="font-bold text-blue-900 text-xl">Contact</h2>
-                        <p className="text-blue-900">info@mysite.com</p>
-                        <p className="text-blue-900">123-456-7890</p>
-                        <p className="text-blue-900">500 Terry Francine Street, <br /> San Francisco, CA 94158</p>
+                        <h2 className="font-bold text-blue-900 text-xl">Connect with us and stay updated!</h2>
+                        <a href="mailto:corewebfusion@gmail.com" className="flex items-center gap-5"><img src={gmail} alt='logo' className='w-10 h-10'/> <span className="text-blue-900 hover:underline cursor-pointer">corewebfusion@gmail.com</span></a>
+                        <a href='https://www.instagram.com/corewebfusion/' className="flex items-center gap-5"><img src={insta} alt='logo' className='w-10 h-10'/> <span className="text-blue-900 hover:underline cursor-pointer">corewebfusion</span></a>
+                        <a href='https://www.linkedin.com/in/coreweb-fusion-2162ab329/' className="flex items-center gap-5"><img src={LinkedIn} alt='logo' className='w-10 h-10'/> <span className="text-blue-900 hover:underline cursor-pointer">@corewebfusion</span></a>
+                        <a href='https://x.com/corewebfusion' className="flex items-center gap-5"><img src={x} alt='logo' className='w-10 h-10'/> <span className="text-blue-900 hover:underline cursor-pointer">Coreweb Fusion</span></a>
+                       
                     </div>
 
                     {/* Navigate Section */}
@@ -31,8 +39,8 @@ const Footer = () => {
                         <h2 className="font-bold text-blue-900 text-xl">Navigate</h2>
                         <ul className="space-y-2">
                             <li><a href="#" className="text-blue-900 hover:underline cursor-pointer">Home</a></li>
-                            <li><a href="#" className="text-blue-900 hover:underline cursor-pointer">Privacy Policy</a></li>
-                            <li><a href="#" className="text-blue-900 hover:underline cursor-pointer">Accessibility Statement</a></li>
+                            <li> <HashLink smooth to="/#service"  className="text-blue-900 hover:underline cursor-pointer">Our Services</HashLink></li>
+                            <li><HashLink smooth to="/#clients" className="text-blue-900 hover:underline cursor-pointer">Our CLIENTS</HashLink></li>
                         </ul>
                     </div>
 
@@ -50,7 +58,7 @@ const Footer = () => {
                 {/* Bottom Text */}
                 <div className="flex flex-col items-center md:items-start lg:items-start space-y-3 mt-10">
                     <a href="#" className="bg-white px-4 py-2 rounded-full border border-blue-700 flex items-center justify-center cursor-pointer">
-                        <img src={logo} alt="Logo" className="h-6 w-6 mr-2 object-contain" loading='lazy'/>
+                        <img src={logo} alt="Logo" className="h-8 w-8 mr-2 object-contain" loading='lazy'/>
                         <span className="text-blue-900 font-bold">Corewebfusion</span>
                     </a>
                 </div>

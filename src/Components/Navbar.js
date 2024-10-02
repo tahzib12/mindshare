@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../Assets/logoweb.jpeg';
+import logo from '../Assets/logo.png';
 import { CgMenuRight, CgClose } from "react-icons/cg";
 import { HashLink } from 'react-router-hash-link';
 

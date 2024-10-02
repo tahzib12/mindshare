@@ -20,7 +20,7 @@ const SlideCard = () => {
                 “Working with CoreWebFusion was an absolute pleasure! Their team took the time to understand our brand’s vision and executed it flawlessly, delivering a stunning website and social media strategy that exceeded our expectations. Highly recommended!”
                 </p>
                 <div className="mt-6">
-                    <button className="px-4 py-2 bg-indigo-100 text-black rounded-full shadow-sm hover:bg-blue-900 hover:text-white border-[1px] border-black focus:outline-none hover:border-blue-900 cursor-pointer sm:text-[14px]">
+                    <button className="px-4 py-2 bg-indigo-100 text-black rounded-full shadow-sm hover:bg-blue-900 hover:text-white border-[1px] border-black focus:outline-none hover:border-blue-900 cursor-pointer sm:text-[14px] invisible">
                         Apply
                     </button>
                 </div>
@@ -43,7 +43,7 @@ const SlideCard = () => {
                 “CoreWebFusion transformed our digital presence. Thanks to their expert SEO and web development services, we saw a 30% increase in organic traffic within the first three months. Their attention to detail and professionalism set them apart!”
                 </p>
                 <div className="mt-6">
-                    <button className="px-4 py-2 bg-indigo-100 text-black rounded-full shadow-sm hover:bg-blue-900 hover:text-white border-[1px] border-black focus:outline-none hover:border-blue-900 cursor-pointer sm:text-[14px]">
+                    <button className="px-4 py-2 bg-indigo-100 text-black rounded-full shadow-sm hover:bg-blue-900 hover:text-white border-[1px] border-black focus:outline-none hover:border-blue-900 cursor-pointer sm:text-[14px] invisible">
                         Apply
                     </button>
                 </div>
@@ -65,8 +65,8 @@ const SlideCard = () => {
                 <p className="text-blue-900 mt-4 sm:text-[14px]">
                 “I couldn't be happier with the graphic design and branding work CoreWebFusion did for us. They helped shape a visual identity that resonates with our customers and aligns perfectly with our values. Exceptional work from start to finish!”
                 </p>
-                <div className="mt-6">
-                    <button className="px-4 py-2 bg-indigo-100 text-black rounded-full shadow-sm hover:bg-blue-900 hover:text-white border-[1px] border-black focus:outline-none hover:border-blue-900 cursor-pointer sm:text-[14px]">
+                <div className="mt-6 ">
+                    <button className="px-4 py-2 bg-indigo-100 text-black rounded-full shadow-sm hover:bg-blue-900 hover:text-white border-[1px] border-black focus:outline-none hover:border-blue-900 cursor-pointer sm:text-[14px] invisible">
                         Apply
                     </button>
                 </div>
