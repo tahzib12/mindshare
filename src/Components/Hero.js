@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero1 from '../Assets/hero1.jpeg'
+import { HashLink } from 'react-router-hash-link';
 
 const HeroSection = () => {
   return (
@@ -14,9 +15,9 @@ const HeroSection = () => {
           Our experience has built us an enviable reputation for consistently delivering the wow factor, underpinned with intelligent and thoughtful design that is focused on delivering a clear return on your investment.
           </p>
           <div className="space-x-4">
-            <button className="bg-[#d4d8ff] border-[1px] border-b-[5px] border-black text-black  font-semibold py-2 px-6 rounded-full hover:bg-blue-900 hover:text-white hover:border-blue-900 transition duration-300 cursor-pointer sm:text-[10px] md:text-[16px]">
+          <HashLink smooth to="/#form" className="bg-[#d4d8ff] border-[1px] border-b-[5px] border-black text-black  font-semibold py-2 px-6 rounded-full hover:bg-blue-900 hover:text-white hover:border-blue-900 transition duration-300 cursor-pointer sm:text-[10px] md:text-[16px]">
               Contact
-            </button>
+            </HashLink>
             <button className="bg-[#d4d8ff] border-[1px] border-b-[5px] border-black text-black  font-semibold py-2 px-6 rounded-full hover:bg-blue-900 hover:text-white hover:border-blue-900 transition duration-300 cursor-pointer sm:text-[10px] md:text-[16px]">
               Join
             </button>

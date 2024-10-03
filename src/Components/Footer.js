@@ -20,7 +20,7 @@ const Footer = () => {
     }, []);
 
     return (
-        <footer className="bg-[#f9f5f2] p-8 pb-5 mx-auto w-full">
+        <footer className="bg-[#f9f5f2] p-8 sm:px-2 pb-5 mx-auto w-full">
             <div className="bg-[#F7C9AF] p-8 lg:md-12 md:p-12 rounded-3xl mx-auto my-10 max-w-[90%] shadow-lg border-[1px] border-b-[10px] border-blue-900 relative" data-aos="zoom-in">
                 <div className="flex flex-col gap-44 md:gap-24 sm:gap-3 lg:flex-row md:flex-row justify-start items-start space-y-6 lg:space-y-0 md:space-y-0">
 
@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
 
                     {/* Logo Section */}
-                    <div className="flex justify-center lg:justify-start md:justify-start text-pink-500 absolute top-10 right-10 sm:top-0 sm:right-0 md:right-0">
+                    <div className="flex justify-center lg:justify-start md:justify-start text-pink-500 absolute top-10 right-10 sm:top-[50%] md:top-[50%] sm:right-0 md:right-0">
                         <svg preserveAspectRatio="none" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="150" width="150" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" aria-label="" fill='#ffffff'
                             stroke='#1C1E87'   className="animate-up-down sm:w-[30%] sm:h-[30%] md:w-[50%] md:h-[50%]">
                             <g>
